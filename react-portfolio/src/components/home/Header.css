@@ -1,0 +1,79 @@
+.header-elements{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 80px;
+}
+.left-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}
+.left-side svg{
+  width: 55px;
+  height: 55px;
+}
+.left-side .tracker-project-text{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.tracker-project-text h3{
+  font-size: 26px;
+  font-family: 'Inter';
+  font-weight: bold;
+  color: var(--heading-color);
+  line-height: 0;
+}
+.tracker-project-text .text-color{
+   color: var(--tracker-color);
+}
+.tracker-project-text p{
+  color: var(--p-color);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+  position: relative;
+}
+.right-side svg{
+  width: 60px;
+  height: 60px;
+}
+.right-side .caveat-text{
+  color: var(--btn-color);
+  font-family: 'caveat';
+  font-size: 20px;
+  font-weight: 400;
+}
+.right-side .caveat-text::after{
+  content: '';
+  position: absolute;
+  background: url('./images/Underline.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  bottom: -80px;
+  left: 20px;
+}
+/* Tablet and mobile responsivness */
+@media(max-width: 1100px){
+  .header-elements{
+   flex-direction: column;
+   justify-content: center;
+   height: 100px;
+}
+.right-side {
+  display: none;
+}
+}

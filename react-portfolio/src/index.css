@@ -1,0 +1,16 @@
+:root{
+--body-bg: #0B102C;
+--tracker-color: #31A8F7;
+--p-color: #8693C9;
+--heading-color: #F4F3FF;
+--btn-color: #7C5CFF;
+--progress-bg-color: #354ED7;
+--complete-bg-color: #075A59;
+--delete-color: #351C3A;
+--toggle-status-color: #25256D;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--body-bg);
+}
