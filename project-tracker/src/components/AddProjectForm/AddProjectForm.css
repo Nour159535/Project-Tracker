@@ -27,7 +27,7 @@
   gap: 40px;
 }
 .add-project .project-name {
-  background-image: url('./images/project-name-icon.svg')!important;
+  background-image: url('/images/project-name-icon.svg')!important;
   background-repeat: no-repeat!important;
   background-position: 12px center!important;
   background-size: 18px 18px!important;
@@ -35,7 +35,7 @@
   box-sizing: border-box!important;
 }
 .add-project .project-year {
-  background-image: url('./images/calendar-days.svg')!important;
+  background-image: url('/images/calendar-days.svg')!important;
   background-repeat: no-repeat!important;
   background-position: 12px center!important;
   background-size: 18px 18px!important;
@@ -43,7 +43,7 @@
   box-sizing: border-box!important;
 }
 .add-project .project-type {
-  background-image: url('./images/project-type.svg')!important;
+  background-image: url('/images/project-type.svg')!important;
   background-repeat: no-repeat!important;
   background-position: 12px center!important;
   background-size: 18px 18px!important;

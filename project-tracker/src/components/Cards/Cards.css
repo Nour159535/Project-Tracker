@@ -58,7 +58,7 @@
 .card-details h5::before{
   content: '';
   position: absolute;
-  background: url('./images/project-type.svg');
+  background: url('/images/project-type.svg');
   top: 0;
   left: -2px;
   width: 100%;
@@ -76,7 +76,7 @@
 .card-details p::before{
   content: '';
   position: absolute;
-  background: url('./images/calendar-days.svg');
+  background: url('/images/calendar-days.svg');
   top: 0;
   left: -2px;
   width: 100%;
@@ -108,7 +108,7 @@
 .toggle-delete .toggle-status::before{
   content: '';
   position: absolute;
-  background: url('./images/toggle-status.svg');
+  background: url('/images/toggle-status.svg');
   transform: translateY(30%);
   left: 10px;
   width: 100%;
@@ -135,7 +135,7 @@
 .toggle-delete .delete::before{
   content: '';
   position: absolute;
-  background: url('./images/delete-icon.svg');
+  background: url('/images/delete-icon.svg');
   transform: translateY(30%);
   left: 10px;
   width: 100%;

@@ -59,7 +59,7 @@
 .right-side .caveat-text::after{
   content: '';
   position: absolute;
-  background: url('./images/Underline.svg');
+  background: url('/images/Underline.svg');
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
