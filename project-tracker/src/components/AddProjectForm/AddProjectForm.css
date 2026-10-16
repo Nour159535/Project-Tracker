@@ -99,7 +99,7 @@
     border-radius: 50%;
     background-color: #FFFFFF;
     transform: scale(0);
-    transition: transform 0.15s ease-in-out!;
+    transition: transform 0.15s ease-in-out;
 }
 
 .btn-radio input[type="radio"]:checked {
